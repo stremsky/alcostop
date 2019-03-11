@@ -214,8 +214,8 @@ footer, .major {
 
 
 /*Медиазапросы*/
-	
-		@media only screen and (max-width : 768px)  {
+
+	@media only screen and (max-width : 1024px)  {
 
 		.phone {
 			font-size: 4em;
@@ -227,7 +227,34 @@ footer, .major {
 		}
 	
 		.services span  {
-			font-size: 1em;
+			font-size: 1.6em;
+			line-height: 1.6em;		
+			text-align: center;
+		}
+	
+		.menu-button {
+			font-size: 3em;
+		}
+	
+		.cross {
+			font-size: 2em;
+		}	
+	}
+	
+	@media only screen and (max-width : 768px)  {
+
+		.phone {
+			font-size: 4em;
+		}
+	
+		.allday {
+			font-size: 3em;
+			line-height: 2em;		
+		}
+	
+		.services span  {
+			font-size: 1.5em;
+			line-height: 2em;		
 			text-align: center;
 		}
 	
