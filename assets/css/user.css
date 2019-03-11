@@ -21,7 +21,6 @@
 	.phone {
 		font-size: 5em;
 		font-weight: bold;
-		/*color: red;*/
 		line-height: 2em;	
 	}
 
@@ -199,6 +198,10 @@ h2 {
 		opacity: .5;
 	}
 
+footer, .major {
+	text-align: center;	
+}
+
 
 
 
@@ -237,4 +240,40 @@ h2 {
 			font-size: .5em;
 			color: blue;
 		}
+	}
+	
+	@media only screen and (max-width : 320px)  {
+		
+		.phone {
+		font-size: 3em;
+		font-weight: bold;
+		}
+	
+		.allday {
+		font-size: 1em;
+		line-height: 2em;
+		}
+	
+		.services span a {
+			font-size: 1em;
+		}
+	
+		.menu-button {
+			font-size: 2em;
+		}
+	
+		.cross {
+			font-size: 2em;
+		}
+	
+		.phone {
+			font-size: 1.3em;
+		}
+	
+		.header>a {
+			font-size: .5em;
+			color: blue;
+		}
+
+
 	}
