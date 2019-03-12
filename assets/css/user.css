@@ -105,14 +105,14 @@ h2 {
 /*Выпадающий список услуг*/
 
 	.top-menu {
-	/*	top: 10vw;
+		top: 10vw;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
-		display: flex;*/
-		/*justify-content: space-around;*/
-		/*position: absolute;*/
+		display: flex;
+		justify-content: space-around;
+		position: fixed;
 		/*justify-content: center;*/
 		z-index: 100;
 		width: 100%;
