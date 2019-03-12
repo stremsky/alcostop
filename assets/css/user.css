@@ -105,7 +105,6 @@ h2 {
 /*Выпадающий список услуг*/
 
 	.top-menu {
-		top: 10vw;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -113,12 +112,14 @@ h2 {
 		display: flex;
 		justify-content: space-around;
 		position: fixed;
+		outline: 2px solid red;
 		/*justify-content: center;*/
 		z-index: 100;
 		width: 100%;
 	}
 	
 	.menu-button {
+		top: 10vw;
 	 	position: fixed;
 	 	font-weight: bolder;
 	 	font-size: 4em;
