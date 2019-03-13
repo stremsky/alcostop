@@ -1,0 +1,422 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+	body, input, select, textarea {
+		color: #6e6e6e;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 16pt;
+		font-weight: 400;
+		line-height: 1.75em;
+		margin: 0 auto;
+	}
+
+	.wrap {
+		width: 70%;
+		margin: 0 auto;
+
+
+
+	}
+
+	a {
+		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		/*border-bottom: dotted 1px;*/
+		color: #4eb980;
+		text-decoration: none;
+	}
+
+		a:hover {
+			/*border-bottom-color: transparent;*/
+		}
+
+	strong, b {
+		font-weight: 600;
+		color: #5b5b5b;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+
+
+	h1, h2, h3, h4, h5, h6 {
+		color:  #E36161;
+		font-weight: 700;
+		letter-spacing: 0.125em;
+		line-height: 1.75em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+
+	hr {
+		border: 0;
+		border-top: solid 1px rgba(224, 224, 224, 0.75);
+		margin-bottom: 1.5em;
+	}
+
+	blockquote {
+		border-left: solid 0.5em rgba(224, 224, 224, 0.75);
+		font-style: italic;
+		padding: 1em 0 1em 2em;
+	}
+
+
+/*Картинка бутылка*/
+
+	.bottle {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+		z-index: 400;
+		filter: brightness(1.5);
+		margin: 0 auto;
+	}
+
+	.bottle img {
+		/*height: 100%;*/
+	}
+
+/*Номер телефона*/
+
+	.phone {
+		font-size: 2em !important;
+		font-weight: bold;
+		line-height: 2em;
+		margin: 0 auto !important;
+		text-align: center !important;
+				
+	}
+
+/*Картинки*/
+
+	.image {
+		opacity: .7;
+		filter: sepia(.3);
+		margin: 50px auto;
+		text-align: center;
+		
+	}
+
+	.image:hover {
+		opacity: .9;
+	}
+
+/*Текст*/
+
+
+	h3 {
+		font-size: 2em;
+		font-weight: 900;
+		color: #E36161;
+	}
+	
+	h2 {
+		font-size: 2em;
+		/*padding: 1em;*/
+	}
+	
+	.allday {
+		color: #4EB980;
+		font-size: 5em;
+		line-height: 2em;
+	}
+
+	.big {
+		/*position: relative;*/
+		height: 20vh;
+		font-size: 200px;
+		/*margin: 20px;*/
+		text-align: center;
+		
+		/*margin: .2em;*/
+		/*text-shadow: 0 0 15px #6E6E93;*/
+
+		/*text-align: center;*/
+		/*font-size: 6.5em;*/
+		/*color: #fff;*/
+		/*letter-spacing: -7px;*/
+		/*font-weight: 700;*/
+		/*text-transform: uppercase;*/
+		animation: blur 1s ease-out infinite;
+		text-shadow: 0px 0px 5px #fff, 0px 0px 15px #fff;
+		}
+		
+		
+
+		  @keyframes blur {
+		  from {
+		  		text-shadow:0px 0px 10px #fff,
+			     		    0px -5px 20px #CDE3FF,
+			     		    0px -10px 50px #98A2FF;
+		  }
+	}
+
+/*Стрелка вверх*/
+
+	.up {
+		background-image: url(images/up-arrow-bw-100px.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 70px;
+		width: 70px;
+		font-weight: bolder;
+	    font-size: 4em;
+	    cursor: pointer;
+		position: fixed;
+		bottom: 3vh;
+		right: 3vw;
+		opacity: .7;
+		/*outline: 1px solid red;*/
+		box-sizing: border-box;
+		/*position: fixed;*/
+	}
+
+	.up a {
+		color: transparent;
+		/*font-size: 4em;*/
+
+	}
+
+/*Выпадающий список услуг*/
+
+	.top-menu {
+		/*display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-around;*/
+		position: fixed;
+		/*outline: 2px solid red;*/
+		/*justify-content: center;*/
+		z-index: 100;
+		width: 100%;
+	}
+	
+	.menu-button {
+		top: 5vw;
+	 	left: 3vw;
+	 	position: fixed;
+	 	font-weight: bolder;
+	 	font-size: 4em;
+	 	color:grey;
+	 	cursor: pointer;
+	 	/*text-shadow: 0 0 2px rgba(255, 255, 255, .7);*/
+	}
+
+	
+	.services{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+	 	display: none;
+	 	flex-direction: column;
+	 	flex-wrap: nowrap;
+	 	position: fixed;
+	 	top: 5vh;
+		width: 90vw;	
+		background-color: rgba(200, 200, 200, .97);
+		margin: 0  auto;
+		padding: 1em;
+		border-radius: 6px;
+
+	}
+	
+	.services span {
+		color: white;	
+		font-size: 2em;
+		padding: .5em;
+		/*margin: .5em;*/
+	}
+	
+	.services span a {
+		color: white;	
+		font-size: 1.4em;
+		text-transform: uppercase;
+		word-spacing: .3em;
+		font-weight: bold;
+	}
+	
+	.services span a:hover {
+		color: #B9E9FF;
+	}
+	
+	.services span a:active {
+		color: #22BAFF;
+	}
+
+	.active {
+		display: flex;
+	}
+
+	.cross {
+		font-size: 3em;
+		color: black;
+		cursor: pointer;
+		position: absolute;
+		top: 20px;
+		right: 15px;
+		opacity: .5;
+	}
+
+/*Медиазапросы*/
+
+	@media only screen and (max-width : 1024px)  {
+
+		.phone {
+			font-size: 4em;
+		}
+	
+		.allday {
+			font-size: 3em;
+			line-height: 2em;		
+		}
+	
+		.services span  {
+			font-size: 1.4em;
+			line-height: 1.2em;		
+			/*text-align: center;*/
+		}
+	
+		.menu-button {
+			font-size: 5em;
+		}
+	
+		.cross {
+			font-size: 3em;
+		}	
+	}
+	
+	@media only screen and (max-width : 768px)  {
+
+		.phone {
+			font-size: 4em;
+		}
+	
+		.allday {
+			font-size: 3em;
+			line-height: 2em;		
+		}
+	
+		.services span  {
+			font-size: 1em;
+			line-height: 1.5em;		
+			/*text-align: center;*/
+		}
+	
+		.menu-button {
+			font-size: 5em;
+		}
+	
+		.cross {
+			font-size: 3em;
+		}	
+	}
+
+	@media only screen and (max-width : 425px)  {
+
+		.phone {
+			font-size: 2.5em;
+		}
+	
+		.allday {
+			font-size: 2.5em;
+			line-height: 2em;		
+		}
+	
+		.services span  {
+			font-size: 1em;
+			text-align: center;
+		}
+	
+		.menu-button {
+			font-size: 3em;
+		}
+	
+		.cross {
+			font-size: 2em;
+		}	
+	}
+
+	@media only screen and (max-width : 320px)  {
+
+		.phone {
+			font-size: 1.5em;
+		}
+	
+		.allday {
+			font-size: 2em;
+			line-height: 2em;		
+		}
+	
+		.services span  {
+			font-size: .7em;
+			text-align: center;
+		}
+	
+		.menu-button {
+			font-size: 3em;
+		}
+	
+		.cross {
+			font-size: 2em;
+		}
+
+		.up {
+			transform: scale(.6);
+		}	
+	}
+
+	@media only screen and (max-width : 240px)  {
+
+		.phone {
+			font-size: 1.5em;
+		}
+	
+		.allday {
+			font-size: 1em;
+			line-height: 2em;		
+		}
+	
+		.services span  {
+			font-size: .6em;
+			text-align: center;
+		}
+	
+		.menu-button {
+			font-size: 2em;
+		}
+	
+		.cross {
+			font-size: 2em;
+		}	
+	}
