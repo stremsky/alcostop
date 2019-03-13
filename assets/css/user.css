@@ -23,11 +23,7 @@
 	.phone {
 		font-size: 5em;
 		font-weight: bold;
-		line-height: 2em;
-		justify-content: center !important;
-		/*text-align: center !important;*/
-
-		
+		line-height: 2em;	
 	}
 
 /*Картинки*/
@@ -61,6 +57,31 @@ h2 {
 	line-height: 2em;
 }
 
+
+/*Стрелка вверх*/
+
+	.up {
+	/*	height: 100px;
+		width: 100px;
+		background-image: url(images/up-arrow.png);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		opacity: .53*/
+		
+		font-weight: bolder;
+	    font-size: 4em;
+	    color: grey;
+	    cursor: pointer;
+		
+		position: fixed;
+		bottom: 20vh;
+		right: 5vw;
+
+		transform: rotate(270deg);
+		/*border: 2px solid green;*/
+
+	}
 
 /*Таблица */
 
