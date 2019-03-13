@@ -23,7 +23,11 @@
 	.phone {
 		font-size: 5em;
 		font-weight: bold;
-		line-height: 2em;	
+		line-height: 2em;
+		justify-content: center !important;
+		/*text-align: center !important;*/
+
+		
 	}
 
 /*Картинки*/
@@ -112,7 +116,7 @@ h2 {
 		display: flex;
 		justify-content: space-around;*/
 		position: fixed;
-		outline: 2px solid red;
+		/*outline: 2px solid red;*/
 		/*justify-content: center;*/
 		z-index: 100;
 		width: 100%;

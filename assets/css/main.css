@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -189,11 +190,13 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 51em;
+
 		
 	}
 
 		.container.medium {
-			width: 38.25em;
+			width: 38.25em
+			text-align: center;;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -204,7 +207,8 @@ input, select, textarea {
 
 				.container.medium {
 					width: 36em;
-				}
+
+text-align: center;				}
 
 		}
 
@@ -216,6 +220,7 @@ input, select, textarea {
 
 				.container.medium {
 					width: 71.25%;
+					text-align: center;
 				}
 
 		}
