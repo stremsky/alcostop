@@ -29,28 +29,28 @@ $(document).keyup(function(e) {
 
 // Кнопка вверх
 
-$(function() {
+// $(function() {
  
-	$(window).scroll(function() {
+// 	$(window).scroll(function() {
 	 
-		if($(this).scrollTop() != 0) {
+// 		if($(this).scrollTop() != 0) {
 		 
-		$('.up').fadeIn();
+// 		$('.up').fadeIn();
 		 
-		} else {
+// 		} else {
 		 
-		$('.up').fadeOut();
+// 		$('.up').fadeOut();
 		 
-		}
+// 		}
 		 
-		});
+// 		});
 	 
-		$('.up').click(function() {
+// 		$('.up').click(function() {
 	 
-		$('body,html').animate({scrollTop:0},0);
+// 		$('body,html').animate({scrollTop:0},0);
 	 
-	});
+// 	});
  
-});
+// });
 
 

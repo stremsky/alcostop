@@ -61,27 +61,30 @@ h2 {
 /*Стрелка вверх*/
 
 	.up {
-	/*	height: 100px;
-		width: 100px;
-		background-image: url(images/up-arrow.png);
+		background-image: url(images/up-arrow-bw-100px.png);
+		-webkit-background-size: contain;
+		background-size: contain;
 		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		background-size: cover;
-		opacity: .53*/
-		
+		height: 70px;
+		width: 70px;
 		font-weight: bolder;
 	    font-size: 4em;
-	    color: grey;
 	    cursor: pointer;
-		
 		position: fixed;
-		bottom: 20vh;
-		right: 5vw;
+		bottom: 7vh;
+		right: 3vw;
+		opacity: .7;
+		/*outline: 1px solid red;*/
+		box-sizing: border-box;
+	}
 
-		transform: rotate(270deg);
-		/*border: 2px solid green;*/
+	.up a {
+		color: transparent;
+		/*font-size: 4em;*/
 
 	}
+
+
 
 /*Таблица */
 
