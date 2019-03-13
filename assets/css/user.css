@@ -55,6 +55,11 @@
 		line-height: 2em;
 	}
 
+	.big {
+		font-size: 5em !important;
+
+	}
+
 /*Стрелка вверх*/
 
 	.up {
