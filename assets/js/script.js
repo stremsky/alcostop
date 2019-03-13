@@ -10,13 +10,12 @@ function closeModal(){
   $(".services").removeClass("active");
 }
 
-// Call the closeModal function on the clicks/keyboard
 
 $(".cross").on("click", function(){
   closeModal();
 });
 
-
+// Call the closeModal function on the clicks/keyboard
 
 $(document).keyup(function(e) {
   if (e.keyCode == 27) {
