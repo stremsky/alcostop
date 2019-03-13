@@ -57,6 +57,8 @@
 
 	.big {
 		font-size: 5em !important;
+		padding: 0 !important;
+		margin: .2em !important;
 
 	}
 
