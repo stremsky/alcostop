@@ -668,6 +668,7 @@ input, select, textarea {
 		padding: 5em 0 20em 0;
 		position: relative;
 		text-align: center;
+		/*z-index: 1000;*/
 	}
 
 		#header:before, #header:after {
