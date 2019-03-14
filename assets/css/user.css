@@ -8,12 +8,17 @@
 		display: flex;
 		justify-content: center;
 		z-index: 400;
-		filter: brightness(1.5);
-		margin: 0 auto;
+		/*filter: brightness(1.5);*/
+		opacity: .5;
+		/*margin: 0 auto;*/
+		/*position: relative;*/
+		/*width: 100vw;*/
+		
 	}
 
 	.bottle img {
-		/*height: 100%;*/
+		width: 100vw;
+		height: 100%;
 	}
 
 /*Номер телефона*/
@@ -53,6 +58,17 @@
 		color: #4EB980;
 		font-size: 5em;
 		line-height: 2em;
+
+		animation: blur 1s ease-out infinite;
+		text-shadow: 0px 0px 5px #fff, 0px 0px 15px #fff;
+		}
+		
+		@keyframes blur {
+		from {
+			text-shadow:0px 0px 10px #fff,
+			   		    0px -5px 20px #CDE3FF,
+					    0px -10px 50px #98A2FF;
+		  }
 	}
 
 	.big {
@@ -71,13 +87,11 @@
 		text-shadow: 0px 0px 5px #fff, 0px 0px 15px #fff;
 		}
 		
-		
-
-		  @keyframes blur {
-		  from {
-		  		text-shadow:0px 0px 10px #fff,
-			     		    0px -5px 20px #CDE3FF,
-			     		    0px -10px 50px #98A2FF;
+		@keyframes blur {
+		from {
+			text-shadow:0px 0px 10px #fff,
+			   		    0px -5px 20px #CDE3FF,
+					    0px -10px 50px #98A2FF;
 		  }
 	}
 
