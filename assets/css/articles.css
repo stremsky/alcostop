@@ -67,20 +67,8 @@
 			text-decoration: none;
 		}
 
-	h2 {
-		font-size: 1.75em;
-	}
-
-	h3 {
-		font-size: 1.5em;
-	}
 
 
-	hr {
-		border: 0;
-		border-top: solid 1px rgba(224, 224, 224, 0.75);
-		margin-bottom: 1.5em;
-	}
 
 	blockquote {
 		border-left: solid 0.5em rgba(224, 224, 224, 0.75);
@@ -110,7 +98,7 @@
 /*Номер телефона*/
 
 	.phone {
-		font-size: 2em !important;
+		font-size: 4em !important;
 		font-weight: bold;
 		line-height: 2em;
 		margin: 0 auto !important;
@@ -136,7 +124,7 @@
 
 
 	h3 {
-		font-size: 2em;
+		font-size: 1.5em;
 		font-weight: 900;
 		color: #E36161;
 	}
@@ -225,7 +213,7 @@
 		width: 100%;
 	}
 	
-	.menu-button {
+	 .menu-button  {
 		top: 5vw;
 	 	left: 3vw;
 	 	position: fixed;
