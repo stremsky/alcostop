@@ -657,7 +657,6 @@ input, select, textarea {
 		}
 
 /* Header */
-
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
 		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
@@ -665,13 +664,13 @@ input, select, textarea {
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,			  			auto,					cover;
 		color: rgba(255, 255, 255, 0.8);
-		padding: 2em 0 20em 0;
+		/*padding: 2em 0 20em 0;*/
 		position: relative;
 		text-align: center;
-		/*z-index: 1000;*/
-	}
+		padding-top: 0!important;
+		}
 
-		#header:before, #header:after {
+/*		#header:before, #header:after {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
 			left: 50%;
@@ -745,7 +744,7 @@ input, select, textarea {
 			font-size: 1.5em;
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
-		}
+		}*/
 /*
 /* Footer */
 
