@@ -101,50 +101,6 @@
 
 	}
 
-/*Таблица */
-
-	table {
-		width: 70vw;
-		margin: 0 auto;
-	}
-	
-	.big-name {
-		color: #4EB980;
-		font-size: 2em;
-		font-weight: bolder;
-		text-align: center;
-		text-transform: uppercase;
-		line-height: 3em;
-	}
-	
-	.name {
-		color: #E36161;
-		text-align: center;
-		font-size: 1.3em;
-		font-weight: bold;
-		/*padding-left: 2em;*/
-	}
-	
-	td {
-		font-size: 1.2em;
-		padding-left: 1em;
-		line-height: 2em;
-	}
-	
-	table, td, th, tr{
-		/*border: 1px solid black;*/
-	}
-	
-	tr:nth-of-type(odd) { 
-	  background: #eee; 
-	}
-
-	th { 
-	  background: #333; 
-	  color: white; 
-	  font-weight: bold; 
-	}
-	
 /*Выпадающий список услуг*/
 
 	.top-menu {
@@ -229,31 +185,7 @@
 
 /*Медиазапросы*/
 
-	@media only screen and (max-width : 1024px)  {
 
-		.phone {
-			font-size: 4em;
-		}
-	
-		.allday {
-			font-size: 3em;
-			line-height: 2em;		
-		}
-	
-		.services span  {
-			font-size: 1.4em;
-			line-height: 1.2em;		
-			/*text-align: center;*/
-		}
-	
-		.menu-button {
-			font-size: 5em;
-		}
-	
-		.cross {
-			font-size: 3em;
-		}	
-	}
 	
 	@media only screen and (max-width : 768px)  {
 

@@ -178,11 +178,11 @@ input, select, textarea {
 		margin-bottom: 1.5em;
 	}
 
-	blockquote {
+/*	blockquote {
 		border-left: solid 0.5em rgba(224, 224, 224, 0.75);
 		font-style: italic;
 		padding: 1em 0 1em 2em;
-	}
+	}*/
 
 /* Container */
 
@@ -309,7 +309,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-ms-transition: -ms-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				transition: transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
-				color: #FF4E4E;
+				color: #FF0000;
 				font-size: 6em;
 				height: 1em;
 				left: 50%;
@@ -667,10 +667,10 @@ input, select, textarea {
 		/*padding: 2em 0 20em 0;*/
 		position: relative;
 		text-align: center;
-		padding-top: 0!important;
+		/*padding-top: 0!important;*/
 		}
 
-/*		#header:before, #header:after {
+		#header:before, #header:after {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
 			left: 50%;
@@ -679,7 +679,7 @@ input, select, textarea {
 			z-index: 0;
 		}
 
-		#header:before {
+/*		#header:before {
 			height: calc(100% - 50px);
 			opacity: 0.15;
 			top: 0;
@@ -688,7 +688,7 @@ input, select, textarea {
 		#header:after {
 			bottom: 0;
 			height: 50px;
-		}
+		}*/
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.35);
@@ -700,23 +700,23 @@ input, select, textarea {
 				color: #4eb980;
 			}
 
-		#header strong, #header b {
+/*		#header strong, #header b {
 			color: #ffffff;
-		}
-
+		}*/
+/*
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
-		}
+		}*/
 
-		#header input[type="submit"],
+/*		#header input[type="submit"],
 		#header input[type="reset"],
 		#header input[type="button"],
 		#header .button {
 			background: #ffffff;
 			color: #544d55;
-		}
+		}*/
 
-		#header .logo {
+		/*#header .logo {
 			background: #4eb980;
 			border-radius: 100%;
 			color: #ffffff;
@@ -734,8 +734,8 @@ input, select, textarea {
 				left: -0.075em;
 				position: relative;
 			}
-
-		#header h1 {
+*/
+/*		#header h1 {
 			font-size: 2.5em;
 			margin: 0;
 		}
