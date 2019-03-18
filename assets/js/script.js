@@ -24,32 +24,15 @@ $(document).keyup(function(e) {
 });
 
 
+// Callback
 
-
-// Кнопка вверх
-
-// $(function() {
- 
-// 	$(window).scroll(function() {
-	 
-// 		if($(this).scrollTop() != 0) {
-		 
-// 		$('.up').fadeIn();
-		 
-// 		} else {
-		 
-// 		$('.up').fadeOut();
-		 
-// 		}
-		 
-// 		});
-	 
-// 		$('.up').click(function() {
-	 
-// 		$('body,html').animate({scrollTop:0},0);
-	 
-// 	});
- 
-// });
-
-
+$(document).ready(
+    function () {
+        $(".log-in").click(
+            function () {
+                $(".panel_call").animate({width:'toggle'}, 350)
+                return false;
+            }
+        )
+    }
+);
