@@ -152,7 +152,7 @@ footer .phone{
 
 	.snake {
 		width: 300px;
-		height: 500px;
+		height: 300px;
 		/*outline: 2px solid red;*/
 		background-image: url(images/Snake1.png);
 		background-repeat: no-repeat;
@@ -229,49 +229,12 @@ footer .phone{
 
 	}
 
-/*Таблица */
+/*Форма*/
+	form p {
+		color: white;
+	} 
 
-	table {
-		width: 70vw;
-		margin: 0 auto;
-	}
 	
-	.big-name {
-		color: #4EB980;
-		font-size: 2em;
-		font-weight: bolder;
-		text-align: center;
-		text-transform: uppercase;
-		line-height: 3em;
-	}
-	
-	.name {
-		color: #E36161;
-		text-align: center;
-		font-size: 1.3em;
-		font-weight: bold;
-		/*padding-left: 2em;*/
-	}
-	
-	td {
-		font-size: 1.2em;
-		padding-left: 1em;
-		line-height: 2em;
-	}
-	
-	table, td, th, tr{
-		/*border: 1px solid black;*/
-	}
-	
-	tr:nth-of-type(odd) { 
-	  background: #eee; 
-	}
-
-	th { 
-	  background: #333; 
-	  color: white; 
-	  font-weight: bold; 
-	}
 	
 /*Выпадающий список услуг*/
 
